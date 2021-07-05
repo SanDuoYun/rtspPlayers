@@ -1,0 +1,17 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+
+platform:ios,'9.0'
+use_frameworks!
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'TestRTSP1' do
+  
+  pod 'SteviaLayout'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'TLTransitions'
+  pod 'NodeMediaClient', '~> 2.9.6'
+  pod 'MobileVLCKit', '~>3.0.0'
+end
+
